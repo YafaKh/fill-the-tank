@@ -1,7 +1,8 @@
 Problem D. Dedicated Contestant
 Input file: tank.in
 Output file: standard output
-Balloon Color: Dark green
+* if an error happen, it's because of the path for the input or output file
+
 ACPC 2022 is just around the corner. This year is not like any other year. More surprises, more contestants,
 more challenges and of course more opportunities. As always Coach Academy, the ACPC partner, is
 stepping up to accommodate trainings for the ACPC contestants.
