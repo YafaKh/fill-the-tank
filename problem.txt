@@ -1,0 +1,32 @@
+Problem D. Dedicated Contestant
+Input file: tank.in
+Output file: standard output
+Balloon Color: Dark green
+ACPC 2022 is just around the corner. This year is not like any other year. More surprises, more contestants,
+more challenges and of course more opportunities. As always Coach Academy, the ACPC partner, is
+stepping up to accommodate trainings for the ACPC contestants.
+Coach Academy provides problem solving training for school students, university students and also
+graduates. They prepare students to tackle algorithms and data structures challenges and train them
+for ACPC different competitions.
+Joud is a dedicated young contestant who just started training with Coach Academy to prepare for the
+ACPC Teens. Joud started to apply what she learns in her life. One day, she found a water tank which
+is initially empty and has a maximum capacity of N gallons. She wanted to fill the tank by using two
+other jugs which have maximum capacities S and T gallons respectively. She can perform the following
+operation until the tank is full.
+• Choose one of the jugs and fill it with water to its maximum capacity, then dump all the water into
+the tank.
+Joud must use all the available capacity of the chosen jug at each operation.
+If the tank becomes full during the above operation, then the extra water overflows and is wasted.
+What is the number of times that Joud should use each of the jugs so that the water wasted is minimized?
+Input
+The first line of input contains one integer T - the number of test cases.
+Then T lines will follow. Each of them contains three integers, N, ST (1 ≤ N, S, T ≤ 105
+). The capacity
+of the tank and the capacities of the first and second jug respectively.
+It is guaranteed that the sum of N over all testcases does not exceed 105
+.
+Output
+For each test case, print two numbers, the number of times that Joud should perform the above operation
+with the first jug and with the second jug respectively.
+If there are multiple answers, you should output the one with the smallest number of times that Joud
+should perform the above operation with the first jug.
